@@ -3,6 +3,7 @@
 #include "time.h"
 /*函数n可以顺序打印出来*/
 //
+//
 class test{
 public:
     void PrintN(int n);
