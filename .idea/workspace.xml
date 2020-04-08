@@ -10,10 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32914d93-8f1b-4bb1-84dc-bae5e4c28fbc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test1/12031.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构C++ 浙江大学版/第一课基本知识/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构C++ 浙江大学版/第一课基本知识/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="12031.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test1/12031.cpp">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/数据结构C++ 浙江大学版/第一课基本知识/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="112">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -43,6 +40,7 @@
       <list>
         <option value="$PROJECT_DIR$/test/test.cpp" />
         <option value="$PROJECT_DIR$/test1/12031.cpp" />
+        <option value="$PROJECT_DIR$/数据结构C++ 浙江大学版/第一课基本知识/main.cpp" />
       </list>
     </option>
   </component>
@@ -55,11 +53,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="452" />
-    <option name="y" value="357" />
-    <option name="width" value="1398" />
-    <option name="height" value="1020" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="490" />
+    <option name="y" value="110" />
+    <option name="width" value="1445" />
+    <option name="height" value="940" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -80,7 +78,13 @@
             <path>
               <item name="tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构C++ 浙江大学版" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构C++ 浙江大学版" type="462c0819:PsiDirectoryNode" />
+              <item name="第一课基本知识" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -90,6 +94,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
@@ -121,11 +126,12 @@
       <updated>1575371071564</updated>
       <workItem from="1575371072652" duration="917000" />
       <workItem from="1575372125460" duration="2199000" />
+      <workItem from="1586361951055" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3116000" />
+    <option name="totallyTimeSpent" value="3126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -141,11 +147,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -157,10 +163,11 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/test.cpp" />
-    <entry file="file://$PROJECT_DIR$/test1/12031.cpp">
+    <entry file="file://$PROJECT_DIR$/test1/12031.cpp" />
+    <entry file="file://$PROJECT_DIR$/数据结构C++ 浙江大学版/第一课基本知识/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="112">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
         </state>
       </provider>
     </entry>
