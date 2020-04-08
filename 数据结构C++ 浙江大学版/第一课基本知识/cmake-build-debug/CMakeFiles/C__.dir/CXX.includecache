@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zft/CLionProjects/数据结构C++ 浙江大学版/第一课基本知识/main.cpp
+iostream
+-
+math.h
+/home/zft/CLionProjects/数据结构C++ 浙江大学版/第一课基本知识/math.h
+time.h
+/home/zft/CLionProjects/数据结构C++ 浙江大学版/第一课基本知识/time.h
+
