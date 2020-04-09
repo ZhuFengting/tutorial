@@ -9,8 +9,32 @@ public:
     void PrintNN(int n);
     double f(double a[], double x,int n);
     double ff(double a[], double x,int n);
+    double max_list1(double a[],int n);
+    double max_list2(double a[],int n);
 
 };
+
+
+//最大子列和问题
+//分别利用i和j控制左端和右端
+/***最简单的方法，求出每一个子列然后求和***/
+double test::max_list1(double *a,int n) {
+    double max=0;
+    for(int i = 0; i <n; i++){          //控制右侧
+        double sum=0;
+        for(int j = i;j <n; j++){       //控制左侧
+            sum+=a[j];
+            if(sum>max)
+                max=sum;
+        }
+    }
+    return max;
+}
+
+//分而治知　没有理解
+double test::max_list2(double *a, int n) {
+    
+}
 
 void test::PrintN(int n) {
     for(int i=0;i<=n;i++)
