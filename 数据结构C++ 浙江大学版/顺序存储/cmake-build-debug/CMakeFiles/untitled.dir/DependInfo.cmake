@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zft/CLionProjects/tutorial/数据结构C++ 浙江大学版/第一课基本知识/main.cpp" "/home/zft/CLionProjects/tutorial/数据结构C++ 浙江大学版/第一课基本知识/cmake-build-debug/CMakeFiles/C__.dir/main.cpp.o"
+  "/home/zft/CLionProjects/tutorial/数据结构C++ 浙江大学版/untitled/main.cpp" "/home/zft/CLionProjects/tutorial/数据结构C++ 浙江大学版/untitled/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

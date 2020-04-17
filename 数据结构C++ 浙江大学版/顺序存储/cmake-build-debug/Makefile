@@ -48,24 +48,13 @@ RM = /home/zft/clion-2018.1.5/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/zft/CLionProjects/tutorial/数据结构C++ 浙江大学版/第一课基本知识"
+CMAKE_SOURCE_DIR = "/home/zft/CLionProjects/tutorial/数据结构C++ 浙江大学版/untitled"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/zft/CLionProjects/tutorial/数据结构C++ 浙江大学版/第一课基本知识/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/zft/CLionProjects/tutorial/数据结构C++ 浙江大学版/untitled/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/zft/clion-2018.1.5/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -78,11 +67,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/zft/clion-2018.1.5/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zft/CLionProjects/tutorial/数据结构C++ 浙江大学版/第一课基本知识/cmake-build-debug/CMakeFiles" "/home/zft/CLionProjects/tutorial/数据结构C++ 浙江大学版/第一课基本知识/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zft/CLionProjects/tutorial/数据结构C++ 浙江大学版/untitled/cmake-build-debug/CMakeFiles" "/home/zft/CLionProjects/tutorial/数据结构C++ 浙江大学版/untitled/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zft/CLionProjects/tutorial/数据结构C++ 浙江大学版/第一课基本知识/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/zft/CLionProjects/tutorial/数据结构C++ 浙江大学版/untitled/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named C__
+# Target rules for targets named untitled
 
 # Build rule for target.
-C__: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 C__
-.PHONY : C__
+untitled: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 untitled
+.PHONY : untitled
 
 # fast build rule for target.
-C__/fast:
-	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/build
-.PHONY : C__/fast
+untitled/fast:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
+.PHONY : untitled/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -156,9 +156,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... C__"
+	@echo "... edit_cache"
+	@echo "... untitled"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
