@@ -1,4 +1,4 @@
-/home/zft/clion-2018.1.5/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/zft/CLionProjects/tutorial/数据结构C++ 浙江大学版/untitled1"
+/home/zft/clion-2018.1.5/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zft/CLionProjects/tutorial/untitled
 -- The C compiler identification is GNU 5.4.0
 -- The CXX compiler identification is GNU 5.4.0
 -- Check for working C compiler: /usr/bin/cc
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/zft/CLionProjects/tutorial/数据结构C++ 浙江大学版/untitled1/cmake-build-debug
+-- Build files have been written to: /home/zft/CLionProjects/tutorial/untitled/cmake-build-debug
