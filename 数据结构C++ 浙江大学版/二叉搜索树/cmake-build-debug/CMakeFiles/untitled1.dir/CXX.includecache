@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zft/CLionProjects/tutorial/untitled1/BinTree.cpp
+BinTree.hpp
+/home/zft/CLionProjects/tutorial/untitled1/BinTree.hpp
+stdio.h
+/home/zft/CLionProjects/tutorial/untitled1/stdio.h
+iostream
+-
+
+/home/zft/CLionProjects/tutorial/untitled1/BinTree.hpp
+
+/home/zft/CLionProjects/tutorial/untitled1/main.cpp
+iostream
+-
+BinTree.hpp
+/home/zft/CLionProjects/tutorial/untitled1/BinTree.hpp
+
